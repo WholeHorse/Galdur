@@ -717,7 +717,6 @@ function deck_select_page_deck()
         }}
     }}
 
-    -- Обновляем текст кнопки после создания
     if Galdur.random_deck_text then
         Galdur.random_deck_text.config.text = localize('gald_random_deck')
     end
